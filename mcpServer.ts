@@ -10,7 +10,7 @@ async function main() {
         version: "1.0.0",
     });
 
-    console.log("Registering greet tool...");
+    console.log("Registering greet tool..."); 
     server.registerTool(
         "greet",
         {
