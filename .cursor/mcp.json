@@ -1,0 +1,10 @@
+{
+    "mcpServers": {
+      "hello-world-mcp": {
+        "command": "npx",
+        "args": ["node", "--loader", "ts-node/esm", "mcpServer.ts"],
+        "cwd": ".."
+      }
+    }
+}
+  
