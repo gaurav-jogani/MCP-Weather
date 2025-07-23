@@ -11,7 +11,7 @@ async function main() {
     });
 
     console.log("Registering greet tool..."); 
-    server.registerTool(
+    server.registerTool( 
         "greet",
         {
             title: "Greeting Tool",
